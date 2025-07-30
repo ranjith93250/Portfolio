@@ -18,7 +18,7 @@ export const personalInfo = {
     linkedin: "https://www.linkedin.com/in/digutla-ranjith-kumar/",
     github: "https://github.com/ranjith93250"
   },
-  resumeUrl: "https://customer-assets.emergentagent.com/job_223fa087-c71d-47fe-be6c-f993a6fdfd6a/artifacts/3vrfts4p_RANJITH-OFFICIAL-RESUME.pdf"
+  resumeUrl: "https://drive.google.com/file/d/1jUx51hjCHQhhY3MUX6V1lekLVm4DrE2I/view?usp=drive_link"
 };
 
 export const skills = {
