@@ -84,16 +84,6 @@ const Navbar = () => {
             >
               {darkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </Button>
-            
-            <Button
-              variant="ghost"
-              size="sm"
-              className="p-2 text-xs hover:bg-gray-100 dark:hover:bg-gray-800"
-              onClick={() => console.log('Command palette coming soon!')}
-            >
-              <Command className="h-4 w-4 mr-1" />
-              ⌘K
-            </Button>
           </div>
 
           {/* Mobile menu button */}
