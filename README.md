@@ -68,42 +68,6 @@ This isn't just another portfolio website. It's a **full-stack masterpiece** tha
 
 ---
 
-## 📁 Project Architecture
-
-```
-🏗️ portfolio-project/
-│
-├── 🎨 frontend/                    # React Application
-│   ├── 📁 public/
-│   │   ├── favicon.ico
-│   │   └── index.html
-│   ├── 📁 src/
-│   │   ├── 🧩 components/          # Reusable UI components
-│   │   │   ├── ui/                 # Radix UI primitives
-│   │   │   ├── layout/             # Layout components
-│   │   │   └── sections/           # Page sections
-│   │   ├── 📄 pages/               # Route components
-│   │   ├── 🎨 styles/              # Global styles
-│   │   ├── 📚 lib/                 # Utilities & API
-│   │   ├── 🔧 hooks/               # Custom React hooks
-│   │   └── App.jsx                 # Main App component
-│   ├── ⚙️ craco.config.js          # CRACO configuration
-│   ├── 🎨 tailwind.config.js       # Tailwind configuration
-│   └── 📦 package.json
-│
-└── 🚀 backend/                     # FastAPI Application
-    ├── 📁 app/
-    │   ├── main.py                 # FastAPI app entry
-    │   ├── 📁 routers/             # API route handlers
-    │   ├── 📁 models/              # Pydantic models
-    │   ├── 📁 services/            # Business logic
-    │   └── 📁 core/                # Configuration
-    ├── requirements.txt
-    └── .env                        # Environment variables
-```
-
----
-
 ## 🚀 Quick Start Guide
 
 ### 📋 Prerequisites
@@ -118,7 +82,7 @@ Make sure you have these installed:
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/ranjith93250/portfolio.git
 cd portfolio
 
 # 2️⃣ Frontend Setup
@@ -172,7 +136,7 @@ yarn build
 frontend/build
 
 # Environment Variables (if needed)
-REACT_APP_API_URL=https://vi-n65u.onrender.com
+REACT_APP_API_URL= Your_backend_url
 ```
 
 ### ⚡ Backend (Render)
@@ -224,16 +188,6 @@ module.exports = {
 
 ---
 
-## 📊 Performance Metrics
-
-- ⚡ **Lighthouse Score**: 95+ across all categories
-- 🚀 **First Contentful Paint**: < 1.5s
-- 📱 **Mobile Responsive**: 100% compatible
-- ♿ **Accessibility**: WCAG 2.1 AA compliant
-- 🔍 **SEO Optimized**: Meta tags & structured data
-
----
-
 ## 🤝 Contributing
 
 We welcome contributions! Here's how you can help:
@@ -255,7 +209,7 @@ We welcome contributions! Here's how you can help:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE] file for details.
 
 ---
 
