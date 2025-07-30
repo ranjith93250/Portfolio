@@ -15,8 +15,8 @@ export const personalInfo = {
   contact: {
     phone: "+91 7075127970",
     email: "ranjithkumar93250@gmail.com",
-    linkedin: "https://linkedin.com/in/ranjithkumar",
-    github: "https://github.com/ranjithkumar"
+    linkedin: "https://www.linkedin.com/in/digutla-ranjith-kumar/",
+    github: "https://github.com/ranjith93250"
   },
   resumeUrl: "https://customer-assets.emergentagent.com/job_223fa087-c71d-47fe-be6c-f993a6fdfd6a/artifacts/3vrfts4p_RANJITH-OFFICIAL-RESUME.pdf"
 };
